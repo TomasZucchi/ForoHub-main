@@ -46,7 +46,7 @@ cd ForoHub
 - Base de datos: MySQL
 
 <p align="center">
-    ![Demostracion](hub/11.png).
+    <img src="hub/11.png" alt="Demostracion">
 </p>
 
 Este proyecto está configurado para usar una base de datos H2 en memoria por defecto. Puedes cambiar la configuración de la base de datos en el archivo application.properties.
