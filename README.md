@@ -34,7 +34,7 @@ Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y 
 
 Clona este repositorio:
 ```
-git clone https://github.com/Orliluq/ForoHub.git
+git clone https://github.com/TomasZucchi/ForoHub-main.git
 ```
 
 Navega al directorio del proyecto:
@@ -46,7 +46,7 @@ cd ForoHub
 - Base de datos: MySQL
 
 <p align="center">
-    <img src="https://github.com/Orliluq/ForoHub/assets/122529721/53acb33d-6597-4700-822e-b87425f69383"/>
+    <img src="https://github.com/TomasZucchi/ForoHub/assets/122529721/53acb33d-6597-4700-822e-b87425f69383"/>
 </p>
 
 Este proyecto está configurado para usar una base de datos H2 en memoria por defecto. Puedes cambiar la configuración de la base de datos en el archivo application.properties.
@@ -153,9 +153,4 @@ Body:
   "empty": false
 }
 
-```
-## Contribuciones 
-Las contribuciones son bienvenidas. Por favor, abre un issue para discutir el cambio que deseas realizar. Siéntete libre de hacer un fork del proyecto y enviar un pull request.
 
-## Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
