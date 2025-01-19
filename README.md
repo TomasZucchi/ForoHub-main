@@ -1,13 +1,8 @@
-# Foro Hub 👩‍💻
+# Foro Hub
 
 Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y discusión entre usuarios. Esta aplicación permite a los usuarios crear tópicos, responder a los mismos y participar en discusiones.
 
-<p align="center">
-    <img src="https://github.com/Orliluq/ForoHub/assets/122529721/952e8461-2eac-4c28-8fd0-bb676e672528"/>
-</p>
-
-
-## Características ⚙️
+## Características 
 
 - Registro y autenticación de usuarios.
 - Creación, edición y eliminación de tópicos.
@@ -15,7 +10,7 @@ Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y 
 - Listado de usuarios y tópicos.
 - Autenticación mediante JWT.
 
-## Tecnologías utilizadas ⚒️
+## Tecnologías utilizadas 
 
 - Java
 - Spring Boot
@@ -26,7 +21,7 @@ Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y 
 - Postman (para pruebas de API)
 - Swagger (para documentación de API)
 
-## Estructura del proyecto 🖥️
+## Estructura del proyecto 
 
 - **Entities**: Clases de entidad que representan las tablas de la base de datos.
 - **Dto**: Clases de Data Transfer Object utilizadas para transferir datos entre el cliente y el servidor.
@@ -35,7 +30,7 @@ Foro Hub es una aplicación de foro diseñada para facilitar la comunicación y 
 - **Controller**: Clases de controlador que manejan las solicitudes HTTP.
 - **Security**: Clases relacionadas con la configuración de seguridad y la autenticación.
 
-## Instalación 🚧
+## Instalación
 
 Clona este repositorio:
 ```
@@ -48,7 +43,7 @@ cd ForoHub
 ```
 - Abre el proyecto en tu IDE favorito (por ejemplo, IntelliJ IDEA o Eclipse).
 - Configuración
-- Base de datos: MySQL 📈
+- Base de datos: MySQL
 
 <p align="center">
     <img src="https://github.com/Orliluq/ForoHub/assets/122529721/53acb33d-6597-4700-822e-b87425f69383"/>
@@ -56,7 +51,7 @@ cd ForoHub
 
 Este proyecto está configurado para usar una base de datos H2 en memoria por defecto. Puedes cambiar la configuración de la base de datos en el archivo application.properties.
 
-### Swagger 📊
+### Swagger
 Swagger está configurado para generar documentación de la API automáticamente. Puedes acceder a la interfaz de Swagger en la siguiente URL cuando el servidor esté en funcionamiento:
 ```
 http://localhost:8080/swagger-ui/index.html
@@ -75,9 +70,9 @@ Endpoints principales:
 - `/usuarios`: Endpoint para listar usuarios. Requiere autenticación mediante un token JWT.
 - `/topicos`: Endpoint para manejar la creación, actualización y eliminación de tópicos.
 
-### Ejemplos de solicitudes 📑
+### Ejemplos de solicitudes
 
-- Autenticación 🔐
+- Autenticación
 
 Solicitud:
 ```
@@ -96,7 +91,7 @@ Respuesta:
     "token": "jwt_token_generado"
 }
 ```
-- Crear un tópico 📝
+- Crear un tópico
 
 Solicitud:
 ```
@@ -159,8 +154,8 @@ Body:
 }
 
 ```
-## Contribuciones ⌨️
+## Contribuciones 
 Las contribuciones son bienvenidas. Por favor, abre un issue para discutir el cambio que deseas realizar. Siéntete libre de hacer un fork del proyecto y enviar un pull request.
 
-## Licencia 🚀
+## Licencia
 Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
